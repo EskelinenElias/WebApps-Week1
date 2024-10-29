@@ -17,7 +17,6 @@ h1 {
     flex-direction: column;
     width: 100%; 
     gap: 20px; 
-    margin: 10px; 
     padding-top: 20px; 
     padding-bottom: 100px; 
 }
@@ -45,6 +44,7 @@ h1 {
 .wiki-content {
     display: flex;
     flex-direction: column;
+    padding: 20px; 
 }
 
 .wiki-text {
@@ -75,6 +75,7 @@ h1 {
         max-width: 960px;
         margin: 0 auto; 
     }
+    
     .wiki-item {
         border-radius: 20px;
     }

@@ -15,10 +15,12 @@ h1 {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 100px;
+    margin: 0 auto; 
 }
 
 .wiki-item {
@@ -72,7 +74,7 @@ h1 {
 @media screen and (min-width: 600px) {
     .container {
         max-width: 960px;
-        margin: 10 auto 10 auto;
+        margin: 0 auto;
     }
 
     .wiki-item {

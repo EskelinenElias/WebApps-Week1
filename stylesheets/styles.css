@@ -73,7 +73,7 @@ h1 {
 @media screen and (min-width: 600px) {
     .container {
         max-width: 960px;
-        margin: 0 auto; 
+        margin: 0 auto 0 auto; 
     }
     
     .wiki-item {
